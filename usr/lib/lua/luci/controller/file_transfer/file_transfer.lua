@@ -5,8 +5,8 @@ function index()
     local i18n = luci.i18n.translate
     local title  = i18n("File Transfer")
 
-    page = entry({"admin", "system", "file_transfer"}, call("main"), title, 60)
-    page = entry({"admin", "system", "file_transfer","cmd"}, call("cmd_post"), nil)
+    page = entry({"admin", "services", "file_transfer"}, call("main"), title, 60)
+    page = entry({"admin", "services", "file_transfer","cmd"}, call("cmd_post"), nil)
     page.leaf = true
 end
 

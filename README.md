@@ -2,7 +2,7 @@
 Luci Application for file transfer
 
 # Screenshot
-![file_transfer](https://github.com/futureinsky/luci-app-file_transfer/blob/master/Demo.PNG)
+![file_transfer](https://github.com/shivajiva101/luci-app-file_transfer/blob/master/Demo.PNG)
 
 # Usage
 * Upload:   Drag and Drop File or Dir  
